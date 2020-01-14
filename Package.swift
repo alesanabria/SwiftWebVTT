@@ -18,7 +18,7 @@ let package = Package(
         .library(name: "SwiftWebVTT", targets: ["SwiftWebVTT"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/alesanabria/SwiftWebVTT", from: "1.0.0"),
+        .package(url: "https://github.com/alesanabria/SwiftWebVTT", from: "1.0.1"),
     ],
     targets: [
         .target(name: "SwiftWebVTT", dependencies: ["Utility"]),
